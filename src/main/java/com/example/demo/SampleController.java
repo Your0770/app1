@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 	
-	@GetMapping("/")
+	@GetMapping("/sample")
 	public String main() {
-		return "sample";
+		return "sample local update";
 	}
 }
